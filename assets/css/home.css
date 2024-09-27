@@ -1,0 +1,121 @@
+body {
+    color: white;
+    background: url(../img/woman-code.png) center/cover fixed no-repeat, #000000;
+}
+.banner {
+    background: linear-gradient(#000000 0%, #31A8DD40 35% 50%, #000000 95%) #000000;
+}
+.banner-content {
+    display: grid;
+    gap: 20px;
+    padding: 70px 0;
+    background: url(../img/banner.png) center/cover no-repeat;
+}
+.banner-content p {
+    max-width: 550px;
+}
+.logo {
+    width: 248px;
+    height: 248px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 50%;
+    background-color: #00000030;
+}
+.logo img {
+    margin: 20px 0;
+}
+button {
+    width: max-content;
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #31A8DD;
+    padding: 15px 30px;
+    border-image: linear-gradient(to top, #1572B7 0%, #3BA1CD 50%, #1572B7 100%) 2;
+    background-color: #00000000;
+    margin: auto;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #FFFFFF15;
+}
+.course-content {
+    display: grid;
+    gap: 20px;
+    padding: 70px 7px;
+    background-color: #000000;
+    border-top: 1px solid #31A8DD;
+    border-bottom: 1px solid #31A8DD;
+}
+.course-content p {
+    max-width: 980px;
+}
+.modules {
+    display: grid;
+    width: max-content;
+    margin: auto;
+    gap: 20px;
+}
+.module {
+    background-color: #252525;
+    padding: 15px 40px;
+    border: 1px solid #33A8DB;
+    border-radius: 26px;
+    box-shadow: inset 3px 3px 5px #000000;
+}
+.module span {
+    color: #31A8DD;;
+}
+#transform-world {
+    display: flex;
+    height: 600px;
+}
+#transform-world p {
+    font-size: 40px;
+    font-weight: 900;
+    text-align: left;
+    text-transform: lowercase;
+    margin-right: 68%;
+    width: 250px;
+    text-shadow: 3px 3px #33A8DB;
+}
+#professional-challenges {
+    justify-items: center;
+    display: grid;
+    gap: 20px;
+    padding: 70px 7px;
+    background-color: #000000;
+    border-top: 1px solid #31A8DD;
+    border-bottom: 1px solid #31A8DD;
+}
+#professional-challenges * {
+    max-width: 780px;
+}
+#professional-challenges p {
+    font-size: 16px;
+}
+footer {
+    padding: 50px 7px 30px 7px;
+    background: linear-gradient(#000000 0%, #33A8DB30 100%) #000000;
+}
+footer p {
+    font-size: 16px;
+}
+footer a {
+    color: #31A8DD;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (orientation: portrait) {
+    body, img, .modules {
+        width: 100%;
+    }
+    .module {
+        padding: 15px 0px;
+    }
+}
